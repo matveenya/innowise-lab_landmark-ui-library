@@ -1,9 +1,18 @@
 {
-  "name": "innowise-lab-landmark-ui-library",
+"name": "innowise-lab-landmark-ui-library",
+  "version": "0.0.1",
   "type": "module",
-  "main": "./dist/landmark-ui.umd.cjs",
-  "module": "./dist/landmark-ui.js",
+  "main": "./dist/landmark-ui.umd.js", 
+  "module": "./dist/landmark-ui.es.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/landmark-ui.es.js",
+      "require": "./dist/landmark-ui.umd.js"
+    },
+    "./dist/style.css": "./dist/innowise-lab-landmark-ui-library.css" 
+  },
   "files": [
     "dist"
   ],
