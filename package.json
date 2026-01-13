@@ -1,6 +1,5 @@
 {
   "name": "innowise-lab-landmark-ui-library",
-  "private": true,
   "type": "module",
   "main": "./dist/landmark-ui.umd.cjs",
   "module": "./dist/landmark-ui.js",
@@ -11,6 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "prepare": "npm run build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
