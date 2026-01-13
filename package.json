@@ -4,14 +4,6 @@
   "main": "./dist/landmark-ui.umd.cjs",
   "module": "./dist/landmark-ui.js",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/landmark-ui.es.js",
-      "require": "./dist/landmark-ui.umd.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./dist/style.css": "./dist/dist/innowise-lab-landmark-ui-library.css"
-  },
   "files": [
     "dist"
   ],
