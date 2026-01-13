@@ -10,7 +10,7 @@
       "require": "./dist/landmark-ui.umd.js",
       "types": "./dist/index.d.ts"
     },
-    "./dist/style.css": "./dist/innowise-lab-landmark-ui-library.css"
+    "./dist/style.css": "./dist/dist/innowise-lab-landmark-ui-library.css"
   },
   "files": [
     "dist"
